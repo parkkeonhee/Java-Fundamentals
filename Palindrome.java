@@ -1,7 +1,7 @@
 /**
  * Topic: Palindrome
- * Description: Java program that prompts the user for a string, and 
- *	checks if the string is a palindrome or not.
+ * Description: Java program that prompts the user for a phrase, and 
+ *	it checks if the user's phrase (string) is a palindrome or not.
  *	A palindrome is any phrase that reads the same as backwards or forwards.
  *	For example: madam is the same as backwards of the word. 
  * Author: Keon Hee Park
