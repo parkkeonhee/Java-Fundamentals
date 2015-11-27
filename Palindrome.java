@@ -33,7 +33,7 @@ public class Palindrome {
 
 		/*
 		 * Example: M a d a m -> m a d a m 
-		 * 	    0 1 2 3 4 
+		 * 	    0 1 2 3 4 	 4 3 2 1 0
 		 * inputLength = 5 int i = inputLength minus 1, 
 		 * because the characters are from 0 - 4. 
 		 * So 5 - 1 = 4
