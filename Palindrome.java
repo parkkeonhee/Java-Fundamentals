@@ -8,10 +8,14 @@
  * Created: November 26, 2015
  */
 
-import java.util.Scanner; // Import a scanner
+// Import a scanner
+import java.util.Scanner;
 
-public class Palindrome { // Palindrome class
-	public static void main(String[] args) { // Main
+// Palindrome class
+public class Palindrome {
+	// Main
+	public static void main(String[] args) {
+		
 		// 'palindrome' defined as an empty string.
 		String palindrome = "";
 
