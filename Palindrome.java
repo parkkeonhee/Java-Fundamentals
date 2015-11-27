@@ -25,12 +25,10 @@ public class Palindrome {
 		// Prompt user for a phrase.
 		System.out.print("Type a phrase that will be checked if it is a palindrome or not");
 
-		// Store the user's prompt into 'userPhrase'
-		// and make the phrase all lower-case.
+		// Store the user's prompt into 'userPhrase' and make the phrase all lower-case.
 		String userPhrase = sc.nextLine().toLowerCase();
 
-		// Store the length of the user's phrase as a number on
-		// 'userPhraseLength'.
+		// Store the length of the user's phrase as a number on 'userPhraseLength'.
 		int userPhraseLength = userPhrase.length();
 
 		/*
@@ -48,8 +46,7 @@ public class Palindrome {
 		} // end for-loop
 
 		// Print out the palindrome of the user's phrase.
-		// This is useful to check if the program
-		// outputs an unexpected result.
+		// This is useful to check if the program outputs an unexpected result.
 		System.out.println("palindrome: " + palindrome);
 
 		// if-else statement
