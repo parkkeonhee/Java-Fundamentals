@@ -23,7 +23,7 @@ public class Palindrome {
 		Scanner sc = new Scanner(System.in);
 
 		// Prompt user for a phrase.
-		System.out.print("Type a phrase that will be checked if it is a palindrome or not");
+		System.out.print("Type a phrase that will be checked if it is a palindrome or not: ");
 
 		// Store the user's prompt into 'userPhrase' and make the phrase all lower-case.
 		String userPhrase = sc.nextLine().toLowerCase();
