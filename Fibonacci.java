@@ -9,6 +9,7 @@
 
 /* 
  * Fibonacci formula: Fn = F(n-1) + F(n-2)
+ * Given: F1 = 0, F2 = 1
  * Index:      1 2 3 4 5 6 7 8  9
  * Sequence:   0 1 1 2 3 5 8 13 21
  */
