@@ -1,9 +1,9 @@
 /**
  * Author: Keon Hee Park
  * Topic: Fibonacci sequence
- * Description: Java program prompts user for last index of 
- *		the fibonacci sequence, then program calculates each
- * 		fibonacci number of every index to the last index and its fibonacci number.
+ * Description: Java program prompts user for last index of the fibonacci sequence, 
+ * 		then program calculates each fibonacci number of every index 
+ * 		to the last index and its fibonacci number.
  * Created: March 13, 2016
  */
 
