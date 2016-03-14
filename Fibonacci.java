@@ -2,8 +2,8 @@
  * Author: Keon Hee Park
  * Topic: Fibonacci sequence
  * Description: Java program prompts user for last index of 
- *			the fibonacci sequence, then program calculates each
- * 			fibonacci number of every index to the last index and its fibonacci number.
+ *		the fibonacci sequence, then program calculates each
+ * 		fibonacci number of every index to the last index and its fibonacci number.
  * Created: March 13, 2016
  */
 
@@ -17,7 +17,7 @@
 import java.util.Scanner;
 
 // Fibonacci class
-public class fibonacci {
+public class Fibonacci {
 	static Scanner sc = new Scanner(System.in);
 
 	public static void main(String[] args) {
@@ -26,8 +26,8 @@ public class fibonacci {
 		int fibonacciIndex = sc.nextInt();
 
 		/*
-		 * Prints out index and its fibonacci sequence. This for-loop calls
-		 * fibonacciMethod for its sequence.
+		 * Prints out index and its fibonacci sequence. 
+		 * This for-loop calls fibonacciMethod for its sequence.
 		 */
 		for (int i = 0; i <= fibonacciIndex; i++) {
 			System.out.println(i + ": " + fibonacciMethod(i));
@@ -36,15 +36,15 @@ public class fibonacci {
 
 	// fibonacciMethod method
 	public static int fibonacciMethod(int fiboIndex) {
-		int firstIndex = 0; /*
-							 * 'firstIndex' value is initialized for the first
-							 * value of fibonacci sequence.
-							 */
-		int secondIndex = 1; /*
-								 * 'secondIndex' value is initialized for the
-								 * second value of fibonacci sequence.
-								 */
-		int fibonacci = 1; // 'fibonacci' initial value is 1 as placeholder.
+		int firstIndex = 0;	/*
+					 * 'firstIndex' value is initialized for the first
+					 * value of fibonacci sequence.
+					 */
+		int secondIndex = 1;    /*
+					 * 'secondIndex' value is initialized for the
+					 * second value of fibonacci sequence.
+					 */
+		int fibonacci = 1;	// 'fibonacci' initial value is 1 as placeholder.
 
 		/*
 		 * If the index of fibonacci sequence is less than 2, then it just
@@ -55,10 +55,11 @@ public class fibonacci {
 		}
 
 		/*
-		 * Fibonacci algorithm using for-loop. The sequence starts from the
-		 * second index to the prompted index. First, 'fibonacci' stores
-		 * 'firstIndex' and 'secondIndex' sum. Then, 'firstIndex' stores
-		 * 'secondIndex' value. Finally, 'secondIndex' stores 'fibonacci' value.
+		 * Fibonacci algorithm using for-loop. 
+		 * The sequence starts from the second index to the prompted index. 
+		 * First, 'fibonacci' stores 'firstIndex' and 'secondIndex' sum. 
+		 * Then, 'firstIndex' stores 'secondIndex' value. 
+		 * Finally, 'secondIndex' stores 'fibonacci' value.
 		 */
 		for (int i = 2; i <= fiboIndex; i++) {
 			fibonacci = firstIndex + secondIndex;
