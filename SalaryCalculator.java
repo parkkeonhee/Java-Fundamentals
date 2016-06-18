@@ -13,18 +13,25 @@ import java.util.Scanner;
 
 public class SalaryCalculator {
 	private static final int weeksInYear = 52;
+	// Average Salary as of 2016.
 	private static final int averageSalary = 69000;
 	
+	// Precondition: Method that takes in 2 arguments: double hourPay and int weekHours.
+	// Postcondition: Returns calculated annual salary.
 	private static double setAnnualSalary(double hourPay, int weekHours){
 		double salary = hourPay * weekHours * weeksInYear;
 		return salary;
 	}
 	
+	// Precondition: Method that takes in 3 arguments: double hourPay, int weekHours, int weeksWorked
+	// Postcondition: Returns calculated salary earned so far.
 	private static double earnedMoney(double hourPay, int weekHours, int weeksWorked){
 		double earnedSoFar = hourPay * weekHours * weeksWorked;
 		return earnedSoFar;
 	}
 	
+	// Precondition: Method that takes in 3 arguments: double hourPay, int weekHours, int weeksWorked
+	// Postcondition: Returns calculated salary unearned so far.
 	private static double unearnedMoney(double hourPay, int weekHours, int weeksWorked){
 		double unearnedSoFar = hourPay * weekHours * weeksWorked;
 		return unearnedSoFar;
