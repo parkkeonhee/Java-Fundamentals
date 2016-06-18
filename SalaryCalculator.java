@@ -15,7 +15,6 @@ public class SalaryCalculator {
 	private static final int weeksInYear = 52;
 	private static final int averageSalary = 69000;
 	
-	
 	private static double setAnnualSalary(double hourPay, int weekHours){
 		double salary = hourPay * weekHours * weeksInYear;
 		return salary;
