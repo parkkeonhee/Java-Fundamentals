@@ -7,8 +7,8 @@
  * This Java program focuses on encapsulation of object-oriented programming
  * and uses of parameterized constructors.
  * 
- * Description: The objective of this program reads in X-Coordinates and Y-Coordinates of three points,
- * A, B, and C and computes and prints these values:
+ * Description: The objective of this program reads in X-Coordinates and Y-Coordinates of three points, A, B, and C,
+ * and computes and prints these values:
  * 1) Pairwise distances between points A, B, and C
  * 2) Maximum value of these distances
  * 3) Sum of the two non-maximum distances
