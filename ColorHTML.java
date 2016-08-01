@@ -1,21 +1,21 @@
 /**
- *	Author: Keon Hee Park
- *	Topic: Print Colors to HTML
+ *  Author: Keon Hee Park
+ *  Topic: Print Colors to HTML
  * 
- *	This project is from http://grid.cs.gsu.edu/~csc2010/f13/assignments/h4/
+ *  This project is from http://grid.cs.gsu.edu/~csc2010/f13/assignments/h4/
  * 
- *	This Java program focuses on encapsulation of object-oriented programming, write to file, basic abstract window toolkit, and HTML.
+ *  This Java program focuses on encapsulation of object-oriented programming, write to file, basic abstract window toolkit, and HTML.
  * 
- *	Description: The objective of this program reads three integer representations of colors and performs the following computations:
- *		1) Converts them into the RGB notation.
- *		2) Converts them into the Hexadecimal notation.
- *		3) Produces a new color by using the R-value of the first color, the G-value of the second color and the B-value of the third color.
- *		4) Converts the new color into integer and hexadecimal notations.
- *		5) Produces an output containing HTML code that contains the color values in the different formats.
+ *  Description: The objective of this program reads three integer representations of colors and performs the following computations:
+ *	1) Converts them into the RGB notation.
+ *	2) Converts them into the Hexadecimal notation.
+ *	3) Produces a new color by using the R-value of the first color, the G-value of the second color and the B-value of the third color.
+ *	4) Converts the new color into integer and hexadecimal notations.
+ *	5) Produces an output containing HTML code that contains the color values in the different formats.
  *
- *	The output will create a file called Colors.html, which can be viewed on a Web browser and the colors.
+ *  The output will create a file called Colors.html, which can be viewed on a Web browser and the colors.
  *  
- *	Started and completed: July 31, 2016
+ *  Started and completed: July 31, 2016
  */
 
 import java.awt.Color;
