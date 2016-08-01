@@ -39,10 +39,10 @@ public class ColorHTML {
 	static int third_Red = 0;
 	static int third_Green = 0;
 	static int third_Blue = 0;
-	static String first_Hexadecimal;
-	static String second_Hexadecimal;
-	static String third_Hexadecimal;
-	static String combined_Hexadecimal;
+	static String first_Hexadecimal = null;
+	static String second_Hexadecimal = null;
+	static String third_Hexadecimal = null;
+	static String combined_Hexadecimal = null;
 
 	private static void setOfInstructions() {
 		askUserForInt();
